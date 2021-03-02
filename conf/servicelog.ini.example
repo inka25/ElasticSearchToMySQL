@@ -1,0 +1,28 @@
+env = "local"
+cron_spec = "0 0 * * *"
+
+// user: pass
+sql_user_pass = "user:pass"
+
+sql_protocol = "tcp"
+
+// db_ip_address:port
+sql_address = "12.123.123.123:3306"
+
+// db name
+sql_database = "dbName"
+
+// table name
+sql_tablename = "tableName"
+
+// elasticsearch_ip_address:port
+es_address = "http://12.123.123.1:9200"
+
+// indexname
+es_indexname = "indexName"
+
+// location 
+time_location = "Asia/Jakarta"
+
+// get number of services available
+service_max_number = 500
